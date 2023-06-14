@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.photo1{
+    border: 1px solid white;
+    border-radius: 3px;
+    background-image: url(./img/jefferson-santos-9SoCnyQmkzI-unsplash.jpg);
+    width: 400px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text1{
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+    background-color: blueviolet;
+    letter-spacing: 5px;
+    text-align: center;
+    width: 400px;
+    height: 540px;
+}
+.h1{
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.p1{
+    font-size: x-large;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.p2{
+    color: rgb(170, 107, 228);
+    font-weight: bold;
+}
+.lorem1{
+    padding: 15px;
+    color:#212121;
+}
+.lorem2{
+    padding: 0px 15px 15px 15px;
+    color: #212121;
+}
+.divbig{
+    background-color: grey;
+    width: 72.75%;
+}
+.flex{
+    display: flex;
+}
+.p3{
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+.div1{
+    border: 1px solid white;
+    border-radius: 12px;
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    background-image: url(./img/clark-tibbs-oqStl2L5oxI-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.div2{
+    border: 1px solid white;
+    border-radius: 12px;
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    background-image: url(./img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 230px;
+    margin-top: 50px;
+}
+.p4{
+    text-align: center;
+    margin-top: 250px;
+    padding: 10px;
+    padding-top: 20px;
+}
+.p5{
+    text-align: center;
+    margin-top: 250px;
+    padding: 10px;
+    padding-top: 20px;
+}
+.end1{
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+}
+.end2{
+    text-align: center;
+    padding: 5px;
+}
+.end3{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
